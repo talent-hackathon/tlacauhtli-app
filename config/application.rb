@@ -21,7 +21,6 @@ module TlacauhtliApp
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
-
     # config.middleware.insert_before 0, Rack::Cors do
     #   allow do
     #     origins "https://#{ ENV["EXTERNAL_ORIGIN_URL_ALLOWED"] }",
@@ -30,6 +29,4 @@ module TlacauhtliApp
     #   end
     # end
   end
-
-  
 end
