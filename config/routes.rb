@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :orders
+  resources :products
+  resources :businesses
   devise_for :users
   devise_scope :user do
     get '/signout', to: 'devise/sessions#destroy', as: :signout
