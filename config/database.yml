@@ -30,6 +30,9 @@ development:
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
   #username: tlacauhtli-app
+  
+  username: postgres 
+  password: password
 
   # The password associated with the postgres role (username).
   #password:
@@ -70,7 +73,8 @@ test:
 #
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
-#
+
+
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
